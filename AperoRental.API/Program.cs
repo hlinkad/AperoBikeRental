@@ -10,6 +10,9 @@ using Microsoft.Extensions.Logging;
 
 namespace AperoRental.API
 {
+
+//this is a new comment to test git
+
     public class Program
     {
         public static void Main(string[] args)
