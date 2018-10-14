@@ -1,0 +1,14 @@
+D:\Apero_Project\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.deps.json
+D:\Apero_Project\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.runtimeconfig.json
+D:\Apero_Project\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.runtimeconfig.dev.json
+D:\Apero_Project\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.dll
+D:\Apero_Project\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.pdb
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.csprojAssemblyReference.cache
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.csproj.CoreCompileInputs.cache
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorAssemblyInfo.cache
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorAssemblyInfo.cs
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.AssemblyInfoInputs.cache
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.AssemblyInfo.cs
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorTargetAssemblyInfo.cache
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.dll
+D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.pdb
