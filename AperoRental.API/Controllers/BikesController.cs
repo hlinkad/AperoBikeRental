@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using AperoRental.API.DataContexts;
 using AperoRental.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AperoRental.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Authorize]
+    [Route("/[controller]")]
     [ApiController]
     public class BikesController : ControllerBase
     {
@@ -19,30 +22,22 @@ namespace AperoRental.API.Controllers
             _context = context;
         }
 
-        // GET api/bikes
+        // GET /bikes
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            var bikes = _context.Bikes.ToList();
-           
-            foreach(Bike bike in bikes){
-                int speed1 = _context.Speeds.FirstOrDefault(s => s.Id == bike.SpeedId).Speed1;
-                int speed2 = _context.Speeds.FirstOrDefault(s => s.Id == bike.SpeedId).Speed2;
-                bike.Speed.Speed1 = speed1;
-                bike.Speed.Speed2 = speed2;
-            }
-
+            var bikes = await GetAndInitBikesAsync();
 
             return Ok(bikes);
         }
 
+        [AllowAnonymous]
         // GET api/bikes/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            var bike = _context.Bikes.FirstOrDefault(arg => arg.Id == id);
-
-            return Ok(bike);
+            Bike bike = await GetBikeAsync(id);
+             return Ok(bike);
         }
 
         // POST api/bikes
@@ -62,5 +57,23 @@ namespace AperoRental.API.Controllers
         public void Delete(int id)
         {
         }
+
+        private async Task<List<Bike>> GetAndInitBikesAsync(){
+           var bikes = await _context.Bikes.ToListAsync();
+             foreach(Bike bike in bikes){
+                Speed speed = await _context.Speeds.FirstOrDefaultAsync(s => s.Id == bike.SpeedId);
+                bike.Speed = speed;
+            }
+            return bikes;
+        }
+
+        private async Task<Bike> GetBikeAsync(int id){
+            Bike bike = await _context.Bikes.FirstOrDefaultAsync(arg => arg.Id == id);
+            Speed speed = await _context.Speeds.FirstOrDefaultAsync(arg => arg.Id == bike.SpeedId);
+            bike.Speed = speed;
+
+            return bike;
+        }
+
     }
 }

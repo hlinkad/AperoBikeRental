@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace AperoRental.API.Models{
 
     public class Bike {
@@ -8,12 +10,13 @@ namespace AperoRental.API.Models{
 
         public string Size {get;set;}
 
-       public int SpeedId {get;set;}
+        public int SpeedId {get;set;}
         
         public string GenderType { get; set; }
 
         public string PhotoUrl {get;set;}
 
+        [NotMapped]
         public Speed Speed {get;set;}
 
     }
