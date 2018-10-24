@@ -2,17 +2,17 @@
   <a class="navbar-brand" href="#">Apero App</a>
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Matches</a>
+      <a class="nav-link" href="#">Bikes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Lists</a>
+      <a class="nav-link" href="#">About Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Messages</a>
+      <a class="nav-link" href="#">Contact</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link" (click)="logout()">Logout</a>
-      </li>
+    <li *ngIf="loggedIn()" class="nav-item">
+      <a class="nav-link" (click)="logout()">Logout</a>
+    </li>
   </ul>
 
   <div *ngIf="loggedIn()" class="dropdown">

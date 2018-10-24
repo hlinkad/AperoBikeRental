@@ -5328,7 +5328,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "sa/cztXesLyTgCiYuef0RK2EAImnak0w2wrjCh/YBTvbn4iV2eTy0q3F8CyUkGiaYEyxUKGVTko6+7SMRBL4Gg==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "files": [
@@ -11826,23 +11826,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Denis\\.nuget\\packages\\": {},
+    "C:\\Users\\st333mpik\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Apero_Project\\AperoRental.API\\AperoRental.API.csproj",
+      "projectUniqueName": "C:\\Users\\st333mpik\\Documents\\Apero\\AperoBikeRental\\AperoRental.API\\AperoRental.API.csproj",
       "projectName": "AperoRental.API",
-      "projectPath": "d:\\Apero_Project\\AperoRental.API\\AperoRental.API.csproj",
-      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "d:\\Apero_Project\\AperoRental.API\\obj\\",
+      "projectPath": "C:\\Users\\st333mpik\\Documents\\Apero\\AperoBikeRental\\AperoRental.API\\AperoRental.API.csproj",
+      "packagesPath": "C:\\Users\\st333mpik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\st333mpik\\Documents\\Apero\\AperoBikeRental\\AperoRental.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\st333mpik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

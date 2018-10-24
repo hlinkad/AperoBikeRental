@@ -12,3 +12,17 @@ D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.Assembl
 D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorTargetAssemblyInfo.cache
 D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.dll
 D:\Apero_Project\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.pdb
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.deps.json
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.runtimeconfig.json
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.runtimeconfig.dev.json
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.dll
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\bin\Debug\netcoreapp2.1\AperoRental.API.pdb
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.csprojAssemblyReference.cache
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.csproj.CoreCompileInputs.cache
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorAssemblyInfo.cache
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorAssemblyInfo.cs
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.AssemblyInfoInputs.cache
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.AssemblyInfo.cs
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.RazorTargetAssemblyInfo.cache
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.dll
+C:\Users\st333mpik\Documents\Apero\AperoBikeRental\AperoRental.API\obj\Debug\netcoreapp2.1\AperoRental.API.pdb
